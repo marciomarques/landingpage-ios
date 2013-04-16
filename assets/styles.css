@@ -1,0 +1,89 @@
+body{
+  background: url(images/background.jpg);
+}
+
+.text-center{
+	text-align: center;
+}
+.center{
+	margin: 0 auto;
+}
+
+.header{
+  background: #f96500 url(images/bg-header.png) no-repeat center 120px;
+  background-attachment: fixed;
+  color: white;
+}
+
+.header-bg{
+  background: url(images/dot-grid.png);
+  min-height: 770px;
+}
+
+.logo{
+  margin-top: 40px;
+}
+
+.banner h1{
+  font-size: 65px;
+  font-family: "Futura Md BT";
+  line-height: 80px;
+  margin-top: 140px;
+  text-align: center; 
+}
+
+.banner p{
+  font-size: 30px;
+  font-family: "Serifa Lt BT" sans-serif;
+  text-align: center; 
+}
+
+.cta{
+  margin: 0 auto;
+  text-align: center;
+}
+
+a.btn-cta{
+  width: 375px;
+  font-size: 22px;
+  font-family: "Serifa Lt BT" sans-serif;
+  color: #1e1e1e;
+  background: white url(images/btn-cta.png) no-repeat 300px center;
+  line-height: 75px;
+  height: 75px;
+  margin-top: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 6px;
+}
+
+a.btn-cta:hover{
+  background-image: url(images/btn-cta-hover.png);
+}
+
+.btn-cta span{
+  display: block;
+}
+
+.iphone{
+  margin-top: -150px;
+  min-height: 434px;
+}
+
+section h2{
+  font-size: 80px;
+  color: #f96500;
+  margin: 40px 0 40px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.process img{
+  margin: 40px 0 40px 0;
+}
+
+.jobs{
+  min-height: 500px;
+  background: url(images/jobs.png);
+  background-attachment: fixed;
+}
