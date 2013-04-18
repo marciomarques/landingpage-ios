@@ -15,7 +15,7 @@
 
 body{
   background: url(images/background.jpg);
-  font-family: "Serifa Lt BT" sans-serif;
+  font-family: "Serifa Lt BT", sans-serif;
 }
 
 .text-center{
