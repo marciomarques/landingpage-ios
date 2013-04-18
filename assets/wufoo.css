@@ -14,10 +14,10 @@
 
 /* Typography */
 .wufoo .info h2{ display: none; }
-.wufoo .info div{ 
-	font-size:95%; 
-	font-family:inherit; 
-	color:#444444; 
+.wufoo .info div{
+	font-size:95%;
+	font-family:inherit;
+	color:#444444;
 }
 .wufoo .section h3 {
     background-color: transparent !important;
@@ -29,14 +29,14 @@
     margin-bottom: 34px;
     padding: 0;
 }
-.wufoo .section div{ 
-	font-size: 85%; 
-	font-family: inherit; 
-	color: #444444; 
+.wufoo .section div{
+	font-size: 85%;
+	font-family: inherit;
+	color: #444444;
 }
-.wufoo label.desc, .wufoo legend.desc{ 
-	font-size:95%; 
-	font-family:inherit;  
+.wufoo label.desc, .wufoo legend.desc{
+	font-size:95%;
+	font-family:inherit;
 }
 	.wufoo label.desc {
 	    color: #333333 !important;
@@ -47,12 +47,12 @@
 	    margin-bottom: 14px;
 	}
 	.wufoo legend.desc { display: none; }
-	
+
 .wufoo li div, .wufoo li div label, .wufoo li span label{ font-family:inherit; color:#444444; }
-.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{ 
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{
 	background-image: none !important;
-	font-size:100%; 
-	font-family:inherit; 
+	font-size:100%;
+	font-family:inherit;
 }
 	.wufoo input.text{
 		border: 1px solid #EDEDED;
@@ -70,14 +70,16 @@
 		height: 151px;
 		resize: none;
 		padding: 10px;
-		overflow: auto; 
+		overflow: auto;
 	}
 	input.medium{ width: 95%; }
-.wufoo label.choice{ color:#444444; }
-.wufoo .instruct{ 
-	font-size:80%; 
-	font-family:inherit; 
-	color:#444444 
+.wufoo label.choice{ color:#444444;    display: inline;
+    padding-left: 3px;
+    width: 100%;margin-left: 0px; }
+.wufoo .instruct{
+	font-size:80%;
+	font-family:inherit;
+	color:#444444
 }
 
 .noI form li, .altInstruct form li { padding-left: 0; padding-right: 0; }
@@ -101,9 +103,9 @@
 
 li.mr0{ margin-right: 0px !important; }
 li.mb34{ margin-bottom: 24px !important; }
-li.upload > div{ 
+li.upload > div{
 	border: 1px solid #EDEDED;
-	background-color: #FFFFFF; 
+	background-color: #FFFFFF;
 	padding: 16px 10px;
 }
 li.rinoguta input.text{
@@ -129,22 +131,22 @@ li.rinoguta input.text{
 		height: 60px;
 		width: 52px;
 		pointer-events: none;
-		
+
 		/* Disable for IE */
 		height: 0\9;
 		width: 0\9;
 	}
-	
+
 	/* Disable for Opera */
 	x:-o-prefocus, .wufoo .select > div:before { display: none; height: 0; width: 0; }
 
-	.wufoo .select select { 
+	.wufoo .select select {
 		border: 1px solid #EDEDED;
 		box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		-ms-box-sizing: border-box;
-		height: 60px; 
+		height: 60px;
 		padding: 20px;
 		width: 100%;
 	}
@@ -154,7 +156,7 @@ li.rinoguta input.text{
 
 .wufoo li.buttons { margin-top: 24px; padding-bottom: 0px; }
 .wufoo input#saveForm {
-	background: url(http://cdn.ideaware.co/iwv5/images/btn/btn_submit_2x.png) no-repeat left top; 
+	background: url(http://cdn.ideaware.co/iwv5/images/btn/btn_submit_2x.png) no-repeat left top;
 	background-size: 137px auto;
 	border: 0 none;
 	cursor: pointer;
@@ -165,26 +167,26 @@ li.rinoguta input.text{
 }
 	.wufoo input#saveForm:hover { background-position: left -36px; }
 	.wufoo input#saveForm:active { background-position: left -72px; }
-	
+
 
 form span.req { color: #CCC !important; }
 span.symbol { line-height: 60px; }
 
 .service-list { margin-bottom: 22px; }
 	.service-list div span { width: 33%; }
-	
+
 .proj-overview { margin-right: 20px; }
 
 #cal106 { line-height: 60px; }
 	#cal106 img { float: none; margin: 0; }
-	
+
 /* Custom Checkbox */
 
-.wufoo label.choice { margin: 0 0 14px; padding-left: 34px; }	
+/* .wufoo label.choice { margin: 0 0 14px; padding-left: 34px; } */
 
-li:not(#foo) > fieldset > div > span > input[type='checkbox'] {   
+li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
     /* Hide the input, but have it still be clickable */
-    opacity: 0;   
+    opacity: 0;
 	position: absolute;
     width: 24px;
 }
@@ -194,7 +196,7 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox'] + label { line-hei
 li:not(#foo) > fieldset > div > span > input[type='checkbox'] + label:before {
 	background: #FFF; border: 1px solid #EDEDED;
 	content: ''; display: block;
-    height: 24px; width: 24px; 
+    height: 24px; width: 24px;
 	position: absolute; left: 0;
 }
 
@@ -234,4 +236,50 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox']:checked + label:af
 	}
 	.wufoo li.w460, .wufoo li.w440 { width: 97% !important; }
 	.wufoo li.textarea_right textarea.textarea { width: 92% !important; }
+}
+
+
+
+
+
+
+
+.wufoo input.radio{
+    display: inline
+}
+.wufoo li div span {
+    margin-right: 13px;
+    width: auto;
+}
+
+.noI form li.briefing{
+  width: 450px !important;
+}
+.noI form li.briefing textarea{
+  height: 450px;
+}
+.noI form li.nome,
+.noI form li.email,
+.noI form li.referer,
+.noI form li.projecttime,
+.noI form li.verba
+{
+  margin-left: 10px;
+  width: 200px !important;
+}
+
+.noI form li.briefing textarea,
+.noI form li.nome input,
+.noI form li.email input
+{
+  padding: 0px;
+}
+
+.briefing, .nome, .email, .referer, .projecttime, .verba{
+  float: left;
+  clear: none;
+}
+
+.wufoo{
+  padding-left: 10px !important;
 }
