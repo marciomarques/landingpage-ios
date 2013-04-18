@@ -73,7 +73,9 @@
 		overflow: auto;
 	}
 	input.medium{ width: 95%; }
-.wufoo label.choice{ color:#444444; }
+.wufoo label.choice{ color:#444444;    display: inline;
+    padding-left: 3px;
+    width: 100%;margin-left: 0px; }
 .wufoo .instruct{
 	font-size:80%;
 	font-family:inherit;
@@ -180,7 +182,7 @@ span.symbol { line-height: 60px; }
 
 /* Custom Checkbox */
 
-.wufoo label.choice { margin: 0 0 14px; padding-left: 34px; }
+/* .wufoo label.choice { margin: 0 0 14px; padding-left: 34px; } */
 
 li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
     /* Hide the input, but have it still be clickable */
@@ -242,15 +244,38 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox']:checked + label:af
 
 
 
-/* Mudanças */
-.wufoo label.choise{
-    display: inline;
-    padding-left: 3px;
-}
 .wufoo input.radio{
     display: inline
 }
-.wufoo form li div span {
+.wufoo li div span {
     margin-right: 13px;
     width: auto;
+}
+
+.noI form li.briefing{
+  width: 300px !important;
+}
+.noI form li.briefing textarea{
+  height: 400px;
+}
+.noI form li.nome,
+.noI form li.email,
+.noI form li.referer,
+.noI form li.projecttime,
+.noI form li.verba
+{
+  margin-left: 10px;
+  width: 200px !important;
+}
+
+.noI form li.briefing textarea,
+.noI form li.nome input,
+.noI form li.email input
+{
+  padding: 0px;
+}
+
+.briefing, .nome, .email, .referer, .projecttime, .verba{
+  float: left;
+  clear: none;
 }
