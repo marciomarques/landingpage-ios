@@ -1,5 +1,6 @@
 body{
   background: url(images/background.jpg);
+  font-family: "Serifa Lt BT" sans-serif;
 }
 
 .text-center{
@@ -65,15 +66,38 @@ a.btn-cta:hover{
   display: block;
 }
 
+a.btn-cta-contact{
+  width: 375px;
+  font-size: 22px;
+  font-family: "Serifa Lt BT" sans-serif;
+  color: white;
+  background: #222 url(images/dot-grid.png);
+  line-height: 75px;
+  height: 75px;
+  margin-top: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 6px;
+}
+
+a.btn-cta-contact:hover{
+  background: #f96500 url(images/dot-grid.png);
+}
+
 .iphone{
   margin-top: -150px;
   min-height: 434px;
 }
 
+section{
+  min-height: 600px;
+}
+
 section h2{
-  font-size: 80px;
+  font-family: "Futura Md BT";
+  font-size: 50px;
   color: #f96500;
-  margin: 40px 0 40px 0;
+  margin: 60px 0 60px 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -83,7 +107,109 @@ section h2{
 }
 
 .jobs{
-  min-height: 500px;
-  background: url(images/jobs.png);
+  background: #222222 url(images/dot-grid.png);
   background-attachment: fixed;
+}
+
+.jobs .icons{
+  margin-top: 45px;
+}
+
+.jobs .icons h3{
+  color: white;
+  text-align: center;
+}
+
+.one{
+  padding-left: 60px;
+}
+
+.shelv{
+  min-height: 480px;
+  background: url(images/shelv.png) no-repeat center bottom;
+}
+
+.contact p{
+  font-size: 18px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.footer{
+  background-attachment: fixed;
+  min-height: 700px;
+  padding-top: 70px;
+}
+
+.footer h2{
+  font-family: "Futura Md BT";
+  font-size: 50px;
+  color: #4a5e86;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 40px 0 40px 0;
+}
+
+.facebook{
+  margin-left: 200px;
+}
+
+.facebook a, .twitter a, .email a{
+  text-indent: -9999px;
+  display: inline-block;
+}
+
+.facebook span{
+  width: 93px;
+  height: 99px;
+  background: url(images/sprite.png) no-repeat 0px 0px;
+  display: block;
+}
+
+.facebook a:hover span{
+  background-position: 0px -241px;
+}
+
+.twitter span{
+  width: 93px;
+  height: 99px;
+  background: url(images/sprite.png) no-repeat 0px -120px;
+  display: block;
+}
+
+.twitter a:hover span{
+  background-position: 0px -360px;
+}
+
+.email span{
+  width: 93px;
+  height: 99px;
+  background: url(images/sprite.png) no-repeat 0px -480px;
+  display: block;
+}
+
+.email a:hover span{
+  background-position: 0px -600px;
+}
+
+.media{
+  border-bottom: 1px dotted #4a5e86;
+  margin: 20px 0 20px 0;
+  min-height: 130px;
+}
+
+.abouts{
+  
+}
+
+.abouts p{
+  font-size: 20px;
+  color: #4a5e86;
+  line-height: 20px;
+  text-align: center;
+}
+
+.fb-like {
+  margin: 20px 0 20px 0;
+  text-align: center;
 }
