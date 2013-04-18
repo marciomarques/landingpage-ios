@@ -151,6 +151,8 @@ section h2{
 }
 
 .footer{
+  background-size: contain;
+  background-image: url("images/felipe-neri.jpg");
   background-attachment: fixed;
   min-height: 700px;
   padding-top: 70px;
