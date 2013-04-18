@@ -253,10 +253,10 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox']:checked + label:af
 }
 
 .noI form li.briefing{
-  width: 300px !important;
+  width: 450px !important;
 }
 .noI form li.briefing textarea{
-  height: 400px;
+  height: 450px;
 }
 .noI form li.nome,
 .noI form li.email,
@@ -278,4 +278,8 @@ li:not(#foo) > fieldset > div > span > input[type='checkbox']:checked + label:af
 .briefing, .nome, .email, .referer, .projecttime, .verba{
   float: left;
   clear: none;
+}
+
+.wufoo{
+  padding-left: 10px !important;
 }
