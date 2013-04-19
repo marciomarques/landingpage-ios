@@ -14,7 +14,6 @@
 }
 
 body{
-  background: url(images/background.jpg);
   font-family: "Serifa Lt BT", sans-serif;
 }
 
@@ -100,11 +99,15 @@ a.btn-cta-contact:hover{
 }
 
 .iphone{
+  min-height: auto;
+}
+
+.iphone img{
   margin-top: -150px;
-  min-height: 434px;
 }
 
 section{
+  background: url("images/background.jpg");
   min-height: 600px;
 }
 
@@ -151,9 +154,6 @@ section h2{
 }
 
 .footer{
-  background-size: contain;
-  background-image: url("images/felipe-neri.jpg");
-  background-attachment: fixed;
   min-height: 700px;
   padding-top: 70px;
 }
