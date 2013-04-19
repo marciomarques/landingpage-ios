@@ -99,7 +99,7 @@ a.btn-cta-contact:hover{
 }
 
 .iphone{
-  min-height: auto;
+  min-height: 1px;
 }
 
 .iphone img{
@@ -134,6 +134,7 @@ section h2{
 }
 
 .jobs .icons h3{
+  font-size: 18px;
   color: white;
   text-align: center;
 }
